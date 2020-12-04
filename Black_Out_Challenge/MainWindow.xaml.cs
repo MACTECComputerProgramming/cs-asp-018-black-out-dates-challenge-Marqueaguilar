@@ -20,28 +20,42 @@ namespace Black_Out_Challenge
     /// </summary>
     public partial class MainWindow : Window
     {
+        public DateTime firstDate, secondDate;
+
+        string difference;
+
         //button
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            SetBlackOutDates(firstDateLabel, secondDateLabel);
+            SetBlackOutDates(firstDate, secondDate);
+
+            DateTime startTime = firstDate;
+            DateTime endTime = secondDate;
+
+            TimeSpan duration = endTime - startTime;
+
+            numberLabel.Content = duration;
         }
 
-        private void SetBlackOutDates(Label firstDateLabel, Label secondDateLabel)
-        {
-            throw new NotImplementedException();
-        }
-
-        //first date
-        public void firstCalendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
-        {
-            firstDateLabel.Content = firstCalendar.SelectedDate.ToString();
-        }
-
-        //second date
         public void secondCalendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
         {
-            secondDateLabel.Content = secondCalendar.SelectedDate.ToString();
+            secondDate = secondCalendar.SelectedDate.Value;
+            secondDateLabel.Content = secondDate;
         }
+
+        public void firstCalendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+        {
+            firstDate = firstCalendar.SelectedDate.Value;
+            firstDateLabel.Content = firstDate;
+        }
+
+        private void SetBlackOutDates(DateTime firstDate, DateTime secondDate)
+        {
+            blackoutCalendar.BlackoutDates.Add(new CalendarDateRange(firstDate, secondDate));
+        }
+
+        
+
 
     }
 }

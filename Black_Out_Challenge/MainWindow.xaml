@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Image HorizontalAlignment="Left" Height="624" Margin="-16,0,0,0" VerticalAlignment="Center" Width="1160" Source="/spot-light-background_1284-4685.jpg"/>
+
         <Calendar x:Name="firstCalendar" HorizontalAlignment="Left" Margin="30,87,0,0" VerticalAlignment="Top"
                   SelectionMode="SingleDate"
                   SelectedDatesChanged="firstCalendar_SelectedDatesChanged">
@@ -41,7 +43,7 @@
                 </LinearGradientBrush>
             </Calendar.Background>
         </Calendar>
-        <Label Content="Number of Days Between" HorizontalAlignment="Left" Margin="143,53,0,0" VerticalAlignment="Top" Width="168" FontSize="14" FontStyle="Italic"/>
+        <Label Content="Number of Days Between" HorizontalAlignment="Left" Margin="133,53,0,0" VerticalAlignment="Top" Width="184" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
         <Label Content="Black Out Days" HorizontalAlignment="Left" Margin="583,56,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="firstDateLabel" Content="1st Date" HorizontalAlignment="Left" Margin="66,295,0,0" VerticalAlignment="Top"/>
         <Label x:Name="secondDateLabel" Content="2nd Date" HorizontalAlignment="Left" Margin="269,295,0,0" VerticalAlignment="Top"/>
