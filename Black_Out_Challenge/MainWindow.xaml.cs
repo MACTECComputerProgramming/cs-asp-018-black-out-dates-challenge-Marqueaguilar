@@ -22,8 +22,6 @@ namespace Black_Out_Challenge
     {
         public DateTime firstDate, secondDate;
 
-        string difference;
-
         //button
         private void Button_Click(object sender, RoutedEventArgs e)
         {
