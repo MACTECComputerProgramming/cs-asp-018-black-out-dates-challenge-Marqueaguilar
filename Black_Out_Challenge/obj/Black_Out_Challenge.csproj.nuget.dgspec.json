@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-Marqueaguilar\\Black_Out_Challenge\\Black_Out_Challenge.csproj": {}
+    "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-MessyAttorney16\\Black_Out_Challenge\\Black_Out_Challenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-Marqueaguilar\\Black_Out_Challenge\\Black_Out_Challenge.csproj": {
+    "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-MessyAttorney16\\Black_Out_Challenge\\Black_Out_Challenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-Marqueaguilar\\Black_Out_Challenge\\Black_Out_Challenge.csproj",
+        "projectUniqueName": "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-MessyAttorney16\\Black_Out_Challenge\\Black_Out_Challenge.csproj",
         "projectName": "Black_Out_Challenge",
-        "projectPath": "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-Marqueaguilar\\Black_Out_Challenge\\Black_Out_Challenge.csproj",
+        "projectPath": "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-MessyAttorney16\\Black_Out_Challenge\\Black_Out_Challenge.csproj",
         "packagesPath": "C:\\Users\\maconrm180\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-Marqueaguilar\\Black_Out_Challenge\\obj\\",
+        "outputPath": "C:\\Users\\maconrm180\\Documents\\Logan Halstead\\Classwork\\cs-asp-018-black-out-dates-challenge-MessyAttorney16\\Black_Out_Challenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
